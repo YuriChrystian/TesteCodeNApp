@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yuri-\\source\\repos\\TesteCodeNApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E52A79C7-4470-4A92-B7C0-63913488F4BC}|OficinaAPI\\OficinaAPI.csproj|c:\\users\\yuri-\\source\\repos\\testecodenapp\\oficinaapi\\controllers\\orcamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52A79C7-4470-4A92-B7C0-63913488F4BC}|OficinaAPI\\OficinaAPI.csproj|solutionrelative:oficinaapi\\controllers\\orcamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52A79C7-4470-4A92-B7C0-63913488F4BC}|OficinaAPI\\OficinaAPI.csproj|c:\\users\\yuri-\\source\\repos\\testecodenapp\\oficinaapi\\models\\itemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52A79C7-4470-4A92-B7C0-63913488F4BC}|OficinaAPI\\OficinaAPI.csproj|solutionrelative:oficinaapi\\models\\itemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52A79C7-4470-4A92-B7C0-63913488F4BC}|OficinaAPI\\OficinaAPI.csproj|c:\\users\\yuri-\\source\\repos\\testecodenapp\\oficinaapi\\models\\orcamentomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52A79C7-4470-4A92-B7C0-63913488F4BC}|OficinaAPI\\OficinaAPI.csproj|solutionrelative:oficinaapi\\models\\orcamentomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\yuri-\\source\\repos\\TesteCodeNApp\\OficinaAPI\\Models\\ItemModel.cs",
+              "RelativeDocumentMoniker": "OficinaAPI\\Models\\ItemModel.cs",
+              "ToolTip": "C:\\Users\\yuri-\\source\\repos\\TesteCodeNApp\\OficinaAPI\\Models\\ItemModel.cs",
+              "RelativeToolTip": "OficinaAPI\\Models\\ItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T02:27:24.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrcamentoModel.cs",
+              "DocumentMoniker": "C:\\Users\\yuri-\\source\\repos\\TesteCodeNApp\\OficinaAPI\\Models\\OrcamentoModel.cs",
+              "RelativeDocumentMoniker": "OficinaAPI\\Models\\OrcamentoModel.cs",
+              "ToolTip": "C:\\Users\\yuri-\\source\\repos\\TesteCodeNApp\\OficinaAPI\\Models\\OrcamentoModel.cs",
+              "RelativeToolTip": "OficinaAPI\\Models\\OrcamentoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T02:09:21.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrcamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\yuri-\\source\\repos\\TesteCodeNApp\\OficinaAPI\\Controllers\\OrcamentoController.cs",
+              "RelativeDocumentMoniker": "OficinaAPI\\Controllers\\OrcamentoController.cs",
+              "ToolTip": "C:\\Users\\yuri-\\source\\repos\\TesteCodeNApp\\OficinaAPI\\Controllers\\OrcamentoController.cs",
+              "RelativeToolTip": "OficinaAPI\\Controllers\\OrcamentoController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T01:59:29.923Z",
+              "EditorCaption": ""
             }
           ]
         }
