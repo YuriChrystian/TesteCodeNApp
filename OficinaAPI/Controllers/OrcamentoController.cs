@@ -46,5 +46,17 @@ namespace OficinaAPI.Controllers
         {
             return Ok(_orcamentos);
         }
+
+        [HttpDelete("ExcluirOrcamento/{id}")]
+        public IActionResult ExcluirOrcamento(int id)
+        {
+            var orcamento = _orcamentos.FirstOrDefault(o => o.Id == id);
+            if (orcamento == null)
+            {
+                return NotFound("Orçamento não encontrado");
+            }
+            _orcamentos.Remove(orcamento);
+            return Ok("Orçamento excluído com sucesso");
+        }
     }
 }

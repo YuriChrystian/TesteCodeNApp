@@ -2,6 +2,7 @@
 {
     public class OrcamentoModel
     {
+        public int Id { get; set; }
         public int ClienteId { get; set; }
         public int VeiculoId { get; set; }
         public List<ItemModel> Itens { get; set; } = new();
