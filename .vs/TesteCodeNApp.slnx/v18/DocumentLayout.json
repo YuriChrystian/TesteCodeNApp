@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Yuri\\Documents\\GitHub\\TesteCodeNApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BCA7C808-297F-B2CC-FEA0-9B5DADF19993}|OficinaAPI\\OficinaAPI.csproj|c:\\users\\yuri\\documents\\github\\testecodenapp\\oficinaapi\\controllers\\orcamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCA7C808-297F-B2CC-FEA0-9B5DADF19993}|OficinaAPI\\OficinaAPI.csproj|solutionrelative:oficinaapi\\controllers\\orcamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCA7C808-297F-B2CC-FEA0-9B5DADF19993}|OficinaAPI\\OficinaAPI.csproj|c:\\users\\yuri\\documents\\github\\testecodenapp\\oficinaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA7C808-297F-B2CC-FEA0-9B5DADF19993}|OficinaAPI\\OficinaAPI.csproj|solutionrelative:oficinaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCA7C808-297F-B2CC-FEA0-9B5DADF19993}|OficinaAPI\\OficinaAPI.csproj|c:\\users\\yuri\\documents\\github\\testecodenapp\\oficinaapi\\models\\orcamentomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCA7C808-297F-B2CC-FEA0-9B5DADF19993}|OficinaAPI\\OficinaAPI.csproj|solutionrelative:oficinaapi\\models\\orcamentomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA7C808-297F-B2CC-FEA0-9B5DADF19993}|OficinaAPI\\OficinaAPI.csproj|c:\\users\\yuri\\documents\\github\\testecodenapp\\oficinaapi\\controllers\\orcamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA7C808-297F-B2CC-FEA0-9B5DADF19993}|OficinaAPI\\OficinaAPI.csproj|solutionrelative:oficinaapi\\controllers\\orcamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yuri\\Documents\\GitHub\\TesteCodeNApp\\OficinaAPI\\Program.cs",
+              "RelativeDocumentMoniker": "OficinaAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Yuri\\Documents\\GitHub\\TesteCodeNApp\\OficinaAPI\\Program.cs",
+              "RelativeToolTip": "OficinaAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:39:45.866Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,14 +49,14 @@
               "RelativeDocumentMoniker": "OficinaAPI\\Models\\OrcamentoModel.cs",
               "ToolTip": "C:\\Users\\Yuri\\Documents\\GitHub\\TesteCodeNApp\\OficinaAPI\\Models\\OrcamentoModel.cs",
               "RelativeToolTip": "OficinaAPI\\Models\\OrcamentoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T14:57:01.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OrcamentoController.cs",
               "DocumentMoniker": "C:\\Users\\Yuri\\Documents\\GitHub\\TesteCodeNApp\\OficinaAPI\\Controllers\\OrcamentoController.cs",
               "RelativeDocumentMoniker": "OficinaAPI\\Controllers\\OrcamentoController.cs",
