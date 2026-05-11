@@ -8,10 +8,13 @@ namespace OficinaAPI.Controllers
     [ApiController]
     public class OrcamentoController : ControllerBase
     {
+        private static List<OrcamentoModel> _orcamentos = new List<OrcamentoModel>();
+
         [HttpPost("CriarOrcamento")]
         public IActionResult CriarOrcamento([FromBody] OrcamentoModel novoOrcamento)
         {
-            if (novoOrcamento.Itens == null || !novoOrcamento.Itens.Any()) {
+            if (novoOrcamento.Itens == null || !novoOrcamento.Itens.Any())
+            {
                 return BadRequest("O Orçamento deve conter pelo menos um item");
             }
             foreach (var item in novoOrcamento.Itens)
@@ -26,6 +29,8 @@ namespace OficinaAPI.Controllers
                 }
             }
 
+            _orcamentos.Add(novoOrcamento);
+
             var resultado = new
             {
                 Mensagem = "Orçamento cadastrado com sucesso!",
@@ -33,7 +38,13 @@ namespace OficinaAPI.Controllers
                 Dados = novoOrcamento
             };
 
-            return Ok(resultado);
+            return Ok(new { Mensagem = "Criação realizada com sucesso", Dados = novoOrcamento });
+        }
+
+        [HttpGet("ListarOrcamentos")]
+        public IActionResult ListarOrcamentos()
+        {
+            return Ok(_orcamentos);
         }
     }
 }
