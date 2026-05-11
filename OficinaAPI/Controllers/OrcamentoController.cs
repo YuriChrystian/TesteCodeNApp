@@ -58,5 +58,32 @@ namespace OficinaAPI.Controllers
             _orcamentos.Remove(orcamento);
             return Ok("Orçamento excluído com sucesso");
         }
+
+        [HttpPut("AtualizarOrcamento/{id}")]
+        public IActionResult AtualizarOrcamento(int id, [FromBody] OrcamentoModel orcamentoAtualizado)
+        {
+            var orcamento = _orcamentos.FirstOrDefault(o => o.Id == id);
+            if (orcamento == null)
+            {
+                return NotFound("Orçamento não encontrado");
+            }
+
+            if (orcamentoAtualizado.Itens == null || !orcamentoAtualizado.Itens.Any())
+            {
+                return BadRequest("O Orçamento deve conter pelo menos um item");
+            }
+
+            foreach (var item in orcamentoAtualizado.Itens)
+            {
+                if (item.Quantidade <= 0 || item.ValorUnitario <= 0)
+                {
+                    return BadRequest($"O item '{item.Descricao}' deve ter quantidade e valor maiores que zero.");
+                }
+            }
+
+            orcamento.Itens = orcamentoAtualizado.Itens;
+            return Ok(new { Mensagem = "Orçamento atualizado com sucesso", Dados = orcamento });
+        }
     }
 }
+
